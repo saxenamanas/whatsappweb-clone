@@ -1,0 +1,26 @@
+.chatMessage__container{
+    margin: 10px;
+    display: flex;
+}
+
+.chatMessage__isSentContainer{
+    margin: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.chatMessage__msg{
+    background-color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+
+.chatMessage__msgisSent{
+    background-color: #DCF8C6;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+}

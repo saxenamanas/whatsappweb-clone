@@ -1,0 +1,43 @@
+.chatHeads__Wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border-bottom: 1px solid #DADADA;
+    border-right: 1px solid #DADADA;
+}
+
+.chatHeads__Wrapper:hover{
+    background-color: #EBEBEB;
+    cursor: pointer;
+}
+
+.chatHeads__chatData{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    flex: 1;
+    justify-content: center;
+}
+
+.chatHeads__lastMsg{
+    font-size: 13px;
+    padding-top: 3px;
+}
+
+.chatHeads__avatar{
+    margin-left: 10px;
+}
+
+.chatHeads__name{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.chatHeads__chatborder{
+    border-bottom: 1px solid #DADADA;
+}
+
+.MuiSvgIcon-root{
+    z-index: 0;
+}
